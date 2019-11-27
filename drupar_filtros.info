@@ -1,0 +1,6 @@
+name = Filtros
+description = Agrega filtros al estilo 'markdown' para renderizar componentes de Poncho desde el editor de contenido
+package = Drupar
+dependencies[] = ctools
+dependencies[] = filter
+core = 7.x

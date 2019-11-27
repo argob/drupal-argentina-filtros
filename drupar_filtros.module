@@ -1,0 +1,8 @@
+<?php
+
+	include_once 'includes/drupar_filtros.filter.inc';
+	include_once 'includes/drupar_filtros.theme.inc';
+
+	function drupar_filtros_init(){
+		drupal_add_js(drupal_get_path('module','drupar_filtros'). '/js/mdBlank.js');
+	}
